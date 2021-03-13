@@ -6,7 +6,7 @@
 
 
 ## :scroll: Description
-<!--- Describe your app in one or two sentences -->
+<!--- Describe your app i n one or two sentences -->
 
 
 ## :bulb: Motivation and Context
