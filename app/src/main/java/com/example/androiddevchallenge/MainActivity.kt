@@ -52,7 +52,7 @@ import com.example.androiddevchallenge.ui.theme.MyTheme
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
+        AppCompatDelegate.setCompatVectorFromResourcesEnabled(true)
         setContent {
             MyTheme {
                 MyApp() {
