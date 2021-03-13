@@ -136,14 +136,14 @@ fun MyContentApp(
                     Column(
                         modifier = Modifier.weight(1f)
                     ) {
-                        contentDown(icon = R.drawable.ic_baseline_spa_24, name = "Home")
+                        contentDown(icon = R.drawable.ic_baseline_spa_24, name = "HOME")
                     }
                     Column(
                         modifier = Modifier.weight(1f)
                     ) {
                         contentDown(
                             icon = R.drawable.ic_baseline_account_circle_24,
-                            name = "Profile"
+                            name = "PROFILE"
                         )
                     }
                 }
@@ -202,7 +202,7 @@ private fun AlignBody(designModel: MutableList<DesignModel>) {
                         .paddingFromBaseline(top = 24.dp)
                         .fillMaxWidth()
                         .wrapContentWidth(align = Alignment.CenterHorizontally),
-                    style = MaterialTheme.typography.h2
+                    style = MaterialTheme.typography.h3
                 )
             }
         }
@@ -260,7 +260,7 @@ private fun contentDown(icon: Int, name: String) {
             .fillMaxWidth()
             .wrapContentWidth(align = Alignment.CenterHorizontally)
             .size(24.dp),
-        tint = if (name == "Home") {
+        tint = if (name == "HOME") {
             MaterialTheme.colors.onBackground
         } else {
             MaterialTheme.colors.primaryVariant
@@ -269,7 +269,7 @@ private fun contentDown(icon: Int, name: String) {
     Text(
         name,
         style = MaterialTheme.typography.caption.copy(
-            color = if (name == "Home") {
+            color = if (name == "HOME") {
                 MaterialTheme.colors.onBackground
             } else {
                 MaterialTheme.colors.primaryVariant

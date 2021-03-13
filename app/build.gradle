@@ -16,6 +16,9 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+    }
     signingConfigs {
         // We use a bundled debug keystore, to allow debug builds from CI to be upgradable
         debug {
